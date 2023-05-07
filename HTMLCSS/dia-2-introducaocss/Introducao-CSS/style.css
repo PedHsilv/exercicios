@@ -1,0 +1,42 @@
+body {
+  font-size: 16px;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: goldenrod;
+}
+
+p {
+  color: grey;
+  font-size: 3em;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.lista-cores {
+  border-radius: 22px;
+  background-color: grey;
+}
+
+#Amarelo {
+  color: yellow;
+  line-height: 36px;
+  font-family: cursive;
+}
+
+#Vermelho {
+  color: red;
+  line-height: 36px;
+  font-family: cursive;
+}
+
+#Marrom {
+  color: brown;
+  line-height: 36px;
+  font-family: cursive;
+}
