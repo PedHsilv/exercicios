@@ -1,0 +1,49 @@
+body {
+  background: rgba(255, 0, 0, 0.651);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: overline;
+  color: yellow;
+}
+
+.super-mario {
+  left: 50px;
+  width: 300px;
+  z-index: 1;
+  position: absolute;
+}
+
+.goomba {
+  top: 550px;
+  left: 120px;
+  width: 120px;
+  z-index: 2;
+  position: absolute;
+}
+
+.baloon {
+  z-index: 2;
+  width: 200px;
+  right: 250px;
+  top: 344px;
+  left: 380px;
+  position: absolute;
+}
+
+.speach {
+  z-index: 4;
+  font-family: fantasy;
+  position: absolute;
+  left: 400px;
+  top: 370px;
+}
+
+.bowser {
+  z-index: 5;
+  position: absolute;
+  width: 250px;
+  right: 10px;
+  top: 500px;
+}
