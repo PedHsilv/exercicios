@@ -1,0 +1,46 @@
+body {
+  background: grey;
+}
+
+div {
+  background: rgba(0, 0, 255, 0.212);
+  border-radius: 12px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+p {
+  font-size: 19px;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 24px;
+}
+
+li:hover {
+  background-color: rgba(56, 136, 168, 0.459);
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 23px;
+}
+
+a:hover {
+  color: cornflowerblue;
+  font-family: monospace;
+}
+
+li:active {
+  font-family: monospace;
+  color: rgb(15, 110, 98);
+}
+
+.motivos {
+  text-align: left;
+  text-decoration: none;
+  color: aquamarine;
+  background: rgba(41, 92, 105, 0.151);
+}
