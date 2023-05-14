@@ -1,3 +1,12 @@
+body {
+  background-color: #fff7d4;
+}
+
+#title {
+  color: #ffd95a;
+  font-family: monospace;
+}
+
 h1 {
   text-align: center;
 }
@@ -5,13 +14,28 @@ h1 {
 ul {
   display: contents;
 }
-.first {
-  display: inline-block;
-  background-color: rgb(235, 200, 84);
-  font-size: 20px;
-  height: 50px;
-  text-align: center;
-  width: 200px;
+
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #c07f00;
+}
+
+nav {
+  display: table;
+  width: 100%;
+}
+
+nav ul > li {
+  list-style-type: none;
+  height: 2px;
+  padding: 5px;
+  display: table-cell;
+  background: #4c3d3d;
+}
+
+nav a {
+  text-decoration: dashed;
+  color: #f1a661;
 }
 
 .primeiro-colocado {
@@ -26,6 +50,17 @@ ul {
   padding: 3px;
 }
 
+.first {
+  display: inline-block;
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+  border: solid 2px goldenrod;
+  margin: 3px;
+}
+
 .second {
   display: inline-block;
   background-color: rgb(219, 219, 219);
@@ -33,6 +68,8 @@ ul {
   height: 50px;
   text-align: center;
   width: 300px;
+  border: solid 2px #454545;
+  margin: 3px;
 }
 
 .third {
@@ -42,9 +79,50 @@ ul {
   height: 50px;
   text-align: center;
   width: 300px;
+  border: solid 2px rgb(173, 116, 41);
+  margin: 3px;
 }
 
 .premiacao h3,
 li {
   text-align: center;
+}
+
+.premiacao-primeiro {
+  background: rgba(235, 200, 84, 0.267);
+  border-radius: 8px;
+  border: solid 2px #bf9742;
+}
+
+.premiacao-segundo {
+  background: #393646;
+  border-radius: 8px;
+  border: solid 2px rgba(218, 165, 32, 0.13);
+}
+
+.premiacao-terceiro {
+  background: #c0801994;
+  border-radius: 8px;
+  border: solid 2px rgba(218, 165, 32, 0.13);
+}
+
+.premiacao-primeiro:hover {
+  background: rgba(235, 200, 84, 0.36);
+  border-radius: 8px;
+  border: solid 2px rgba(218, 165, 32, 0.17);
+  font-size: 17px;
+}
+
+.premiacao-segundo:hover {
+  background: rgb(219, 219, 219, 0.56);
+  border-radius: 8px;
+  border: solid 2px rgba(218, 165, 32, 0.17);
+  font-size: 17px;
+}
+
+.premiacao-terceiro:hover {
+  background: rgb(170, 142, 106, 0.36);
+  border-radius: 8px;
+  border: solid 2px rgba(218, 165, 32, 0.17);
+  font-size: 17px;
 }
