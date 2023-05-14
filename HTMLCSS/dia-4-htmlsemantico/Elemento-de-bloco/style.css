@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: contents;
+}
+.first {
+  display: inline-block;
+  background-color: rgb(235, 200, 84);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+}
+
+.primeiro-colocado {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.segundo-e-terceiro {
+  justify-content: center;
+  display: flex;
+  padding: 3px;
+}
+
+.second {
+  display: inline-block;
+  background-color: rgb(219, 219, 219);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+.third {
+  display: inline-block;
+  background-color: rgb(170, 142, 106);
+  font-size: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+.premiacao h3,
+li {
+  text-align: center;
+}

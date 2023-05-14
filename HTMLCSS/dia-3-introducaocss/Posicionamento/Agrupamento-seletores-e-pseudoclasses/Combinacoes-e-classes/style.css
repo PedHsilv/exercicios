@@ -1,0 +1,60 @@
+h1,
+h3 {
+  color: red;
+}
+
+h1,
+h3 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+ul li em {
+  font-weight: 1000;
+}
+
+.stackoverflow:hover {
+  color: orange;
+  text-decoration: dashed;
+}
+
+.w3s:hover {
+  text-decoration: dashed;
+  color: greenyellow;
+}
+
+.mdn:hover {
+  text-decoration: dashed;
+  color: grey;
+}
+
+.devdocs:hover {
+  text-decoration: dashed;
+  color: yellow;
+}
+
+.trybe:hover {
+  text-decoration: dashed;
+  color: greenyellow;
+}
+
+.Java {
+  background-color: pink;
+  color: purple;
+}
+
+.lista-ordenada {
+  background-color: yellow;
+}
+
+.par li:nth-child(even) {
+  color: green;
+}
+
+.impar li:nth-child(odd) {
+  text-transform: uppercase;
+}
