@@ -68,3 +68,62 @@ console.log(10 + 5 \* 5); // 10 + 25
 Nesse código, primeiro é realizada a multiplicação 5 \* 5, cujo resultado é 25. Depois, é realizada a soma do resultado dessa multiplicação com 10, ou seja, 25 + 10.
 
 Assim como na matemática, primeiro realiza-se a multiplicação e, depois, a soma. Portanto, o retorno desse código é 35.
+
+## Operador OR:
+
+Com o operador OR (ou ||, no JavaScript), é necessário que apenas uma das condições seja verdadeira: isso ou aquilo.
+
+Imagine novamente que você está em uma padaria e que pede um café. Dessa vez, se não tiver café, você indica para a pessoa atendente que pode ser um suco de laranja. Como escreveríamos isso em JavaScript?
+
+let bebidaPrincipal = 'café';
+let bebidaAlternativa = 'suco de laranja';
+
+if (bebidaPrincipal === 'café' || bebidaAlternativa === 'suco de laranja') {
+console.log("Obrigado(a) por me atender :D")
+} else {
+console.log("Ei, eu não pedi isso!");
+}
+
+O símbolo “||” é a representação em caractere desse operador. Novamente, são necessários dois elementos em torno dele para que funcione corretamente. Para que seu retorno seja verdadeiro, um de seus valores deve ser true ou ser considerado truthy.
+
+Abaixo há uma tabela mostrando o resultado de cada operação, assim como representado para o operador “AND“:
+console.log(true || true); // true
+console.log(true || false); // true
+console.log(false || true); // true
+console.log(false || false); // false
+
+## Operador NOT:
+
+Vamos ver um exemplo do que o operador NOT (ou !, no JavaScript) faz. Você consegue prever o que esse código vai imprimir?
+
+console.log((2 + 2) === 4);
+
+O resultado a equação acima deveria retornar 4 não é? Mas, e se adicionassemos o operador "Not" anted dessa declaração ?
+
+console.log(!(2 + ) ===4);
+
+Ao executar o código, note que a resposta, que deveria está correta, mudará.
+Estamos diante de um operador muito poderoso. Ele pode inverter o valor booleano de um elemento. Isso mesmo! Se tivermos uma variável ou um valor considerado true, podemos gerar o resultado oposto simplesmente fazendo !variável, ou seja, false.
+
+Então, sabendo que o resultado original da operação é true, quando é inserido o operador NOT antes dela, obtemos o valor contrário à resposta final, que é false.
+
+O conceito de truthy e falsy também se aplica aqui, por isso não estamos limitados apenas aos tipos primitivos booleanos. Podemos usar em:
+
+Strings:
+let squirtle = "melhor pokemon inicial";
+
+console.log(!squirtle); // false
+
+Números:
+console.log(!42); // false
+
+console.log(!0); // true
+// O número 0 tem o valor "falsy" no JavaScript. Logo, seu oposto é true.
+
+Valores nulos:
+console.log(!null); // true
+
+Valores indefinidos:
+console.log(!undefined); // true
+
+Dentre muitos outros elementos.
