@@ -1,6 +1,6 @@
 // Primeiro exercicío
 //Operações Aritiméticas.
-/*
+
 let = 1 + 1;
 {
   console.log(let);
@@ -25,9 +25,9 @@ let Módulo = 10 % 100;
 {
   console.log(Módulo);
 }
-*/
+
 // Segundo exercicío
-//Utilizar if/else.
+//Utilizando if/else. Retorne o maior de
 
 let maiorPontuacao = 5.4;
 if (maiorPontuacao >= 9 && maiorPontuacao <= 10) {
