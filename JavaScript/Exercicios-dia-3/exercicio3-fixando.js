@@ -31,7 +31,7 @@ console.log(
 
 //Obtendo uma porcentagem de investimento mensal
 function balance(num1, num2) {
-  return 32450 / 12;
+  return sum;
 }
 const sum = 32450 / 12;
 console.log(
