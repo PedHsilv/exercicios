@@ -28,12 +28,12 @@ console.log(
     ". Que é equivalente à 1,5% a.m(ao mês)"
 );
 */
-
 //Obtendo uma porcentagem de investimento mensal
+
+const sum = 32450 / 12;
 function balance(num1, num2) {
   return sum;
 }
-const sum = 32450 / 12;
 console.log(
   "A média de investimendo mensal nos últimos 12 meses foram de R$" +
     sum.toFixed(2) +
