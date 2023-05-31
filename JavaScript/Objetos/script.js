@@ -21,7 +21,6 @@ console.log(account.agency);
 console.log(account.bank);
 
 // E tem mais ! Imagine que, dentro do objeto pode conter muuuito mais do que dois objetos!! Veja só:
-
 const user = {
   id: 2509,
   email: "pedrohenriquesilva29@outlook.com",
@@ -39,3 +38,33 @@ console.log(user.id);
 console.log(user.email);
 console.log(user.info.address.street);
 console.log(user.info.address.state);
+
+//Agora imagine, vários objetos em cadeia dentro de várias arrays. Veja o exemplo:
+const residents = [
+  {
+    name: "Luíza",
+    lastName: "Guimarães",
+    floor: 10,
+    apartment: 1005,
+  },
+  {
+    name: "William",
+    lastName: "Albuquerque",
+    floor: 5,
+    apartment: 502,
+  },
+  {
+    name: "Murilo",
+    lastName: "Ferraz",
+    floor: 8,
+    apartment: 804,
+  },
+  {
+    name: "Zoey",
+    lastName: "Brooks",
+    floor: 1,
+    apartment: 101,
+  },
+];
+
+console.log(residents[0]);
