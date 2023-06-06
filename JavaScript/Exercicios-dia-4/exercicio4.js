@@ -1,3 +1,4 @@
+/*
 const player = {
   name: "Marta",
   lastname: "Silva",
@@ -32,3 +33,33 @@ addProperty(customer, "LinkedIn", "Pedro Silva");
 ////////////////////////////////////////////////////
 
 console.log(customer);
+
+//Manipulação de objetos: Parte 1
+
+1 - Acesse as chaves name, lastName e title e exiba informações em um console.log() no seguinte formato: “O livro favorito de Julia Pessoa se chama ‘O Senhor dos Anéis - a Sociedade do Anel’.”.
+
+2 - Adicione um novo livro favorito na chave favoriteBooks, que é um array de objetos. Atribua a essa chave um objeto que contenha as seguintes informações:
+*/
+
+const reader = {
+  name: "Julia",
+  lastName: "Pessoa",
+  age: 21,
+  favoriteBook: [
+    {
+      title: "O senhor dos Anéis - a sociedade do anel",
+      author: "J.R.R Tolkien",
+      publisher: "Martins Fontes",
+    },
+    {
+      title: "Harry Poter e o Prisioneiro de Azkaban",
+      author: "JK Rowling",
+      publisher: "Rocco",
+    },
+  ],
+};
+let message = `O livro favorito de ${reader.name} ${reader.lastName} se chama ${reader.favoriteBook[0].title}`;
+let twoMessage = `${reader.name} tem ${reader.favoriteBook.length} livros favoritos`;
+
+console.log(message);
+console.log(twoMessage);
