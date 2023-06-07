@@ -1,0 +1,17 @@
+[
+  {
+    "product": "Arroz",
+    "brand": "Tio João",
+    "price": 4.59
+  },
+  {
+    "product": "Feijão - Preto",
+    "brand": "Tio João - Primium",
+    "price": 7.85
+  },
+  {
+    "product": "Macarrão",
+    "brand": "Vitamassa",
+    "price": 2.99
+  }
+]
