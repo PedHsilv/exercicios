@@ -35,11 +35,9 @@ addProperty(customer, "LinkedIn", "Pedro Silva");
 console.log(customer);
 
 //Manipulação de objetos: Parte 1
-
 1 - Acesse as chaves name, lastName e title e exiba informações em um console.log() no seguinte formato: “O livro favorito de Julia Pessoa se chama ‘O Senhor dos Anéis - a Sociedade do Anel’.”.
 
 2 - Adicione um novo livro favorito na chave favoriteBooks, que é um array de objetos. Atribua a essa chave um objeto que contenha as seguintes informações:
-*/
 
 const reader = {
   name: "Julia",
@@ -63,3 +61,55 @@ let twoMessage = `${reader.name} tem ${reader.favoriteBook.length} livros favori
 
 console.log(message);
 console.log(twoMessage);
+*/
+
+//Manipulação de objetos: Parte 2
+//Imagine que você seja responsável por cuidar do sistema de entrega de um restaurante e que precise enviar mensagens com as informações da compra. Para isso, use o seguinte código:
+
+const order = {
+  name: "Rafael Andrade",
+  phoneNumber: "11-98764-1416",
+  address: {
+    street: "Rua das flores",
+    number: "389",
+    apartment: "701",
+  },
+  order: {
+    pizza: {
+      margeruita: {
+        amount: 1,
+        price: 25,
+      },
+      pepperoni: {
+        amount: 1,
+        price: 20,
+      },
+    },
+    drinks: {
+      coke: {
+        type: "Coca-Cola Zero",
+        price: 10,
+        amout: 1,
+      },
+    },
+    delivery: {
+      deliveryPerson: "Ana Silveria",
+      price: 5,
+    },
+  },
+};
+
+const customerInfo = (fullOrder) => {
+  const deliveryPerson = fullOrder.order.delivery.deliveryPerson;
+  const costumerName = fullOrder.name;
+  const phoneNumber = fullOrder.phoneNumber;
+  const street = fullOrder.address.street;
+  const addressNumber = fullOrder.address.number;
+  const apartment = fullOrder.address.apartment;
+
+  return `Olá ! ${deliveryPerson}, hoje a entrega será para: ${costumerName}. 
+  O telefone para contato é o: ${phoneNumber}. 
+  E o endereço é: ${street}, número: ${addressNumber}, AP: ${apartment}.
+  Então... Mãos a obra ! `;
+};
+console.log(customerInfo(order));
