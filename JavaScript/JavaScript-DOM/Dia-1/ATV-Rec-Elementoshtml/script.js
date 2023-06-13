@@ -10,7 +10,7 @@ firstParagraph.innerText =
 firstParagraph.style.fontStyle = "italic";
 
 const subTitle = document.getElementById("subtitle");
-subTitle.innerHTML = "Mas o que vem por ai pode te surpreender";
+subTitle.innerText = "Mas o que vem por ai pode te surpreender";
 
 const secondParagraph = document.getElementById("second-paragraph");
 secondParagraph.innerText =
@@ -35,3 +35,7 @@ console.log(
   (document.getElementById("second-paragraph").innerText =
     "O elenco é composto por Bryan Cranston (Walter White) e Aaron Paul (Jess Pinkman).")
 );
+
+//Retorna a somente a tag selecionada com a alteração desejada. Entenda que ela só retornará, usando o pseudo seletor [ ].
+const subtitle = document.getElementsByTagName("h2");
+subtitle[0].style.color = grey;
