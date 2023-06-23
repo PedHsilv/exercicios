@@ -1,7 +1,8 @@
 //As linhas de código a baixo, são as respostas para o "Para Fixar.". As respostas podem ser conferidas no console do inspencionar do navegador.
 
 //Alternativa dada pelo curso:
-/*const title = document.getElementById("page-title");
+/*
+const title = document.getElementById("page-title");
 title.innerText = "Breaking Bad";
 
 const firstParagraph = document.getElementById("first-paragraph");
